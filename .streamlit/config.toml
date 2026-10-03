@@ -1,0 +1,24 @@
+# Світла тема: дашборд переважно для читання чисел і тексту; темна тема не потрібна.
+[theme]
+base = "light"
+primaryColor = "#1D4F91"             # основна дія і сертифіковані записи; 8.1:1 до білого
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F5F8" # поля введення, розкривні блоки
+textColor = "#1F2933"                # 14.8:1 до білого
+borderColor = "#D3D9E1"              # тонкі межі карток; межу поля введення посилено в app.py
+showWidgetBorder = true
+baseRadius = "0.5rem"
+font = "sans-serif"
+headingFontSizes = ["1.875rem", "1.25rem", "1.0625rem"]
+headingFontWeights = [700, 600, 600]
+yellowTextColor = "#7A5A00"          # текст попереджень: 6.3:1 до фону плашки
+redTextColor = "#A3262A"             # текст помилок: 6.3:1 до фону плашки
+codeTextColor = "#2B3A4D"            # назви полів і статусів БД: нейтральний темний замість зеленого
+codeBackgroundColor = "#EEF1F5"
+codeFontSize = "0.875em"
+metricValueFontSize = "2rem"
+metricValueFontWeight = 600
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = "none"            # не показувати трасування помилок у браузері

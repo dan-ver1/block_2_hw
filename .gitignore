@@ -1,0 +1,12 @@
+# Секрети
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.mcp.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
