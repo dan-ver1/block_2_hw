@@ -185,7 +185,7 @@ def top_courses_table(courses: list[dict]):
 
 
 st.title("Аналітика записів на курси")
-st.caption("Статуси записів і частка сертифікованих у навчальній базі")
+st.caption("Статуси записів і частка сертифікованих у базі даних")
 
 missing = db.missing_db_vars()
 if missing:
